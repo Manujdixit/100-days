@@ -7,8 +7,12 @@ var todoSchema = new mongoose.Schema({
   description: {
     type: String,
   },
-  completed: Boolean,
+  completed: { type: Boolean, default: false },
 });
 
+const todo = mongoose.model("Todo", todoSchema);
+
 //Export the model
-module.exports = mongoose.model("Todo", todoSchema);
+module.exports = {
+  todo: todo,
+};
