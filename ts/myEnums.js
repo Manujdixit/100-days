@@ -1,0 +1,1 @@
+var hcSeat = "" /* SeatChoice.AISLE */;
