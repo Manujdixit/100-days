@@ -1,6 +1,19 @@
 "use strict";
-function sumOfAge(user1, user2) {
-    return user1.age + user2.age;
-}
-const sumOfAgee = sumOfAge({ name: "a", age: 12 }, { name: "b", age: 13 });
-console.log(sumOfAgee);
+// interface User {
+//   readonly id: string;
+//   name: string;
+//   age: number;
+//   email: string;
+//   password: string;
+// }
+// const user: User = {
+//   id: "j",
+//   name: "a",
+//   age: 12,
+//   email: "a",
+//   password: "a",
+// };
+// // user.id = "a";
+// type UpdateProps = Pick<User, "name" | "age" | "email">;
+// type UpdatePropsOptional = Partial<UpdateProps>;
+// function updateUser(updatedProps: UpdatePropsOptional) {}
