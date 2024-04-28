@@ -9,7 +9,7 @@ body {
   height: 100%;
   width: 100%;
 }
-#page {
+/* #page {
   height: 100%;
   width: 100%;
   background-color: rgb(32, 147, 196);
@@ -51,4 +51,40 @@ h2 {
   font-size: 60px;
   position: relative;
   background-color: yellow;
+} */
+body {
+  overflow-x: hidden;
+}
+
+#page1 {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+#page2 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(37, 194, 226);
+  padding: 20px;
+}
+#page3 {
+  background-color: rgb(37, 194, 226);
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+#page2 h1 {
+  font-size: 40vw;
+  text-transform: uppercase;
+}
+
+#blocks {
+  display: flex;
+  flex-direction: column;
+}
+.blocks {
+  height: 720px;
+  width: 560px;
+  background-color: red;
 }
