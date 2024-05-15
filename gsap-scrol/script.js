@@ -57,7 +57,7 @@
 // });
 
 gsap.to("#page2 h1", {
-  transform: "translateX(-100%)",
+  transform: "translateX(-117%)",
   scrollTrigger: {
     trigger: "#page2",
     scroller: "body",
